@@ -13,7 +13,8 @@ def generate(n):
 st.set_page_config(layout='wide')
 
 with st.sidebar:
-    y = st.slider('Pick a number', 1, 1000)
+    t = st.slider('Pick a delay (ms)', 0, 1000) / 1000
+    y = st.slider('Pick a number', 10, 200)
     sort_type = st.radio("Pick a sorting algorithm", ('Bubble Sort', 'Insertion Sort', 'Selection Sort', 'Cycle Sort', 'Merge Sort', 'Heap Sort', "Quick Sort"))
     text = st.empty()
 
@@ -24,6 +25,6 @@ placeholder.bar_chart(x)
 with st.sidebar:
     if st.button('Start sort'):
         text.text("Sorting")
-        d[sort_type](x, placeholder)
+        d[sort_type](x, placeholder, t)
         text.text("Sorted!")
     
