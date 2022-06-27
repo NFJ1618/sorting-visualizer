@@ -219,3 +219,43 @@ d = {
     'Heap Sort': heap,
     'Quick Sort': quick,
 }
+
+r = {
+    "Bubble Sort": "O(n^2)",
+    "Selection Sort": "O(n^2)",
+    "Insertion Sort": "O(n^2)",
+    "Cycle Sort": "O(n^2)",
+    "Merge Sort": "O(nlog(n))",
+    'Heap Sort': "O(nlog(n))",
+    'Quick Sort': "O(n^2)",
+}
+
+a = {
+    "Bubble Sort": "O(n^2)",
+    "Selection Sort": "O(n^2)",
+    "Insertion Sort": "O(n^2)",
+    "Cycle Sort": "O(n^2)",
+    "Merge Sort": "O(nlog(n))",
+    'Heap Sort': "O(nlog(n))",
+    'Quick Sort': "O(nlog(n))",
+}
+
+s = {
+    "Bubble Sort": "One of the first sorts you'll probably learn",
+    "Selection Sort": "Often the first attempt at writing a sorting algorithm",
+    "Insertion Sort": "Easy to write and pragmatic to use",
+    "Cycle Sort": "Moves each element at most once",
+    "Merge Sort": "Recursion(Recursion(Recursion(Recursion(Recursion(Recursion...",
+    'Heap Sort': "When in doubt, it's either hash or heap",
+    'Quick Sort': "It's all in the name",
+}
+
+p = {
+    "Bubble Sort": "A simple comparison based sorting algorithm that allows the largest elements to bubble to the top. \n\nWhile usually slower than other comparable runtime algorithms it works best for lists that are almost sorted.",
+    "Selection Sort": "This algorithm picks the smallest element each time and moves it to the beginning. \n\n Slower on average because it needs to scan the remainder of the array each time.",
+    "Insertion Sort": "Faster in implementation than selection because it moves each element down to its correct place. ",
+    "Cycle Sort": "Used when writing to memory is costly, especially on expensive hardware. \n\nThe fastest algorithm in this app as it does not bottleneck the writing to screen process.",
+    "Merge Sort": "Uses two arrays, one to split the array and sort a certain level, and the other to merge the previously split array into. \n\nThis provides an imcomplete view of only one array as a result.",
+    'Heap Sort': "Takes advantage of heap properties to turn the array into a heap and then constantly extract the largest element. \n\nA smarter version of selection sort, this algorthim always has the same worst case scenario making it very desirable.",
+    'Quick Sort': "A finnicky algorithm that repeatedly partitions the array based on a pivot. \n\n The science of choosing this pivot is complicated, but when done right, it is tough to beat.",
+}
