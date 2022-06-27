@@ -1,3 +1,5 @@
+<img src="./logo.jpg" alt="logo" height="250"/>
+
 # sorting-visualizer
 An app to visualize different sorting algorithms using Streamlit
 
